@@ -1,0 +1,129 @@
+body {
+  font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  color: #fff;}
+h1,h2{
+  font-size: 30px;
+  font-weight: normal;
+  text-transform: uppercase;}
+a:hover{
+  text-decoration: none;
+  color: #fff;}
+a{
+  color: #fff;}
+ /* Nav */
+.nav-link a, a:visited {
+  color: #fff !important;}
+ul.navbar li a:hover {
+  color: #fff !important;}
+.navbar {
+  background-color:#5e758e;
+  text-transform: uppercase;}
+span.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");}
+ /* Botões */
+.btn{
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 0.5rem;
+  outline:none !important;}
+.btn:focus {
+  box-shadow: none;}  
+.btn-contato{
+  background-color:#4dae96;
+  padding: 0.6rem 1.7rem;}
+.btn-contato:hover{
+  background-color:#6ec9b3;}  
+.btn-compre{
+  background-color: #d35400;
+  padding: 0.8rem 3rem;
+  font-size: 1.8rem;
+  box-shadow: 0 0.6rem #b4491f;}
+.btn-compre:hover{
+  background-color: #ec6a13;
+}
+.btn-compre:focus{
+ box-shadow: 0 0.6rem #b4491f; 
+}
+/* Header */
+header.masthead {
+  background-color: #82afac;
+  padding-top: 5rem;  }  
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 8rem;}
+  header.masthead h1 {
+    font-size: 2.5rem;} 
+}
+header,.celular-home{
+  margin-bottom: -12px;}
+@media (max-width: 419px){
+  header.masthead h1 {
+    font-size: 1.5rem;}
+}
+@media (max-width: 768px){
+  header,.celular-home{
+    width: 100%;
+    height: auto;}
+}
+/* Características */
+.caracteristicas {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  background-color: #b7a187;}
+.caracteristicas .descricao{
+  font-weight: bold;  
+  font-size: 0.9rem;
+  margin-bottom: 5rem;}
+.caracteristicas .features-icons-item {
+  max-width: 20rem;
+  font-size: 0.9rem;}
+.caracteristicas .features-icons-item .features-icons-icon {
+  height: 8rem;}
+.caracteristicas .features-icons-item .features-icons-icon i {
+  font-size: 4.2rem;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;}
+.caracteristicas .features-icons-item:hover .features-icons-icon i {
+  font-size: 5rem;}
+/* Criadores */
+.criadores {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  background-color: #d0cba7; }
+.criadores .criadores-item {
+  max-width: 20rem;
+  font-size: 0.9rem; }
+.criadores .criadores-item img {
+  max-width: 20rem;}
+.criadores .chamada{
+  text-transform: uppercase;
+  margin-bottom: 5rem;}
+/* Footer */  
+footer.footer {
+  padding-top: 1.5rem;
+  background-color: #dfded5;
+  color: #2c3e50;}
+.fa {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    opacity: 1;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;}
+.fa:hover {
+    opacity: 0.7;}
+/* Cores Social Media */
+.fa-facebook {
+  background: #3B5998;}
+.fa-youtube{
+  background-color: #e32426;}
+.fa-digg{
+  background-color: #818285;}
+.fa-linkedin{
+  background-color: #2a8dc4;}
+.fa-twitter{
+  background-color: #00aeef;}
